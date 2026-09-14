@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/samples/">
+    <Project Path="samples/WssSample/WssSample.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/FeishuWss/FeishuWss.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/FeishuWss.Tests/FeishuWss.Tests.csproj" />
+  </Folder>
+</Solution>

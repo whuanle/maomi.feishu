@@ -1,0 +1,27 @@
+# Build artifacts
+bin/
+obj/
+*.user
+*.suo
+*.nupkg
+*.snupkg
+
+# Pack-time copy of root package.png dropped next to csproj by NuGet
+src/**/package.png
+
+# IDE
+.vs/
+.idea/
+.vscode/
+
+# WorkBuddy local state (memory / agent logs)
+.workbuddy/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# OS
+.DS_Store
+Thumbs.db
