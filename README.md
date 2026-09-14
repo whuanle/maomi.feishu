@@ -34,16 +34,16 @@ FeishuWss 参照 `oapi-sdk-go/v3/ws` 的实现，用 **.NET 8** 完整复刻了�
 ## 安装
 
 ```bash
-dotnet add package FeishuWss
+dotnet add package Maomi.FeishuWss
 ```
 
 或者：
 
 ```xml
-<PackageReference Include="FeishuWss" Version="1.0.0" />
+<PackageReference Include="Maomi.FeishuWss" Version="1.0.0" />
 ```
 
-依赖：`.NET 8.0`，仅 `Microsoft.Extensions.Logging.Abstractions`（WebSocket 使用 BCL 内置实现，无第三方网络库）。
+
 
 ## 快速开始
 
